@@ -7,8 +7,8 @@ def test_int_to_roman():
   for i in range(len(num)):
     assert int_to_roman(num[i])== roman[i]
 
-def main():
-  test_int_to_roman()
+# def main():
+#   test_int_to_roman()
 
-if __name__ == '__main__':
-  main()
+# if __name__ == '__main__':
+#   main()

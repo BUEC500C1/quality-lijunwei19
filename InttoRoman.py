@@ -14,8 +14,8 @@ def int_to_roman(input):
         input -= ints[i] * count
     return ''.join(result)
 
-def main():
-    print(int_to_roman(2002))
+# def main():
+#     print(int_to_roman(2002))
 
-if __name__ == '__main__':
-    main()
+# if __name__ == '__main__':
+#     main()
