@@ -1,5 +1,6 @@
 # test function int-to-roman in the Inttoroman python file
 from InttoRoman import int_to_roman
+import pytest
 
 def test_int_to_roman():
   num=[1, 2, 3, 4, 10, 50, 90, 500, 755]
